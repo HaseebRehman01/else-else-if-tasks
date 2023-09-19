@@ -62,10 +62,24 @@
 // }
 
 // task 4
-var a= prompt("Write any alphabet")
-if (a === "a" || a==="e"|| a=== "i" || a==="o"  || a==="u"){
-alert("True")
-}
+// var a= prompt("Write any alphabet")
+// if (a === "a" || a==="e"|| a=== "i" || a==="o"  || a==="u"){
+// alert("True")
+// }
+// else{
+//     alert("false")
+// }
+
+
+
+
+
+// task 6
+var hour = 13;
+if (hour < 18) {
+greeting = "Good day";
+alert(greeting)}
 else{
-    alert("false")
+greeting = "Good evening";
+alert(greeting)
 }
