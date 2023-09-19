@@ -30,18 +30,42 @@
 
 
 // task 2
-var a = +prompt("Write 1st inteeger")
-var b = +prompt("Write 2nd inteeger")
-if(a > b){
-    alert(a + " bigger than " +b)
-}
-else if (a === b)
-{
-    alert(a + " is equal to " +b)
-}
-else if (a < b){
-    alert(b + " bigger than " +a)
+// var a = +prompt("Write 1st inteeger")
+// var b = +prompt("Write 2nd inteeger")
+// if(a > b){
+//     alert(a + " bigger than " +b)
+// }
+// else if (a === b)
+// {
+//     alert(a + " is equal to " +b)
+// }
+// else if (a < b){
+//     alert(b + " bigger than " +a)
+// }
+// else{
+//     alert("pllz write number")
+// }
+
+
+
+// task 3
+// var a = +prompt("Write any number")
+// if(a >= 0)
+// {
+//     alert("positive")
+// }
+// else if (a < 0){
+//     alert("Negative")
+// }
+// else{
+// alert("write only number")
+// }
+
+// task 4
+var a= prompt("Write any alphabet")
+if (a === "a" || a==="e"|| a=== "i" || a==="o"  || a==="u"){
+alert("True")
 }
 else{
-    alert("pllz write number")
+    alert("false")
 }
