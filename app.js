@@ -75,11 +75,31 @@
 
 
 // task 6
-var hour = 13;
-if (hour < 18) {
-greeting = "Good day";
-alert(greeting)}
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// alert(greeting)}
+// else{
+// greeting = "Good evening";
+// alert(greeting)
+// }
+
+
+// task 7
+var a = prompt("Enter your country time in 1900 format")
+if (a  >= 0o00 && a<1200){
+alert("Good morning")
+}
+else if(a >= 1200 && a<1700){
+    alert("Good afternoon")
+}
+else if(a >= 1700 && a<2100){
+    alert("Good Evening")
+}
+else if(a >= 2100 && a<2359){
+    alert("Good Night")
+
+}
 else{
-greeting = "Good evening";
-alert(greeting)
+    alert("invalid")
 }
